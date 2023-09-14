@@ -1,0 +1,197 @@
+body{
+    background-color:#0A093D;
+}
+
+#bar{
+    float:left;
+    list-style-type:none;
+    background-color:#0A093D;
+    text-align:center;
+    position:fixed;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left:10%;
+    padding-right:10%;
+    width:100%;
+}
+
+
+
+li{
+    text-align:center;
+    float:left;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li a{
+    text-decoration:none;
+    display:block;
+    padding:14px 75px;
+    color:white;
+    font-size: 175%;
+}
+
+#home a:hover:not(.active){
+  background-color: #508484;
+}
+#product a:hover:not(.active){
+  background-color: #1D4E89;
+}
+
+#news a:hover:not(.active){
+  background-color: #00B2CA;
+}
+
+#shop a:hover:not(.active){
+  background-color: #7DCFB6;
+}
+
+#contact a:hover:not(.active){
+  background-color: #FBD1A2;
+}
+
+.active {
+  background-color: #4D5359;
+}
+
+#nav{
+    width:100%;
+    font-family: 'Dancing Script', cursive;
+}
+#home1{
+    margin-top:15%;
+    margin-bottom:15%;
+}
+#logo{
+    float:left;
+    width:20%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+#home1 h2{
+    color:#FFD56D;
+    font-family: "Homemade Apple", cursive;
+    font-size:250%;
+}
+
+#home1 p{
+    float:left;
+    font-family:"Dancing Script", cursive;
+    font-size:200%;
+    width:50%;
+    color: #FFD56D;
+    background-color: #0A093D;
+}
+
+#chocolate{
+    margin:10%;
+    width:80%;
+    float:left;
+    background-color: #0A093D;
+}
+
+#home2{
+    background-color:#1D4E89;
+    margin:5%;
+    padding:5%;
+}
+#home2 h2{
+    color:#FFD56D;
+    font-family: "Homemade Apple", cursive;
+    text-align:center;
+    font-size:250%;
+}
+
+#home2 p{
+    font-size:100%;
+    font-family: "Special Elite", cursive;
+    color: #FFD56D;
+    text-align:center;
+    font-size:200%;
+}
+
+#home3{
+    float:left;
+    width:100%;
+}
+
+#home3-1{
+    float:left;
+    width:50%;
+}
+
+#home3 h2{
+    color:#FFD56D;
+    font-family:"Homemade Apple", cursive;
+    text-align:center;
+    margin:5%;
+    font-size:250%;
+}
+
+#home3 p{
+    font-family: "Special Elite", cursive;
+    color: #FFD56D;
+    text-align:center;
+    font-size:200%;
+    margin:5%;
+    margin-right:10%;
+    margin-left:10%;
+    float:left;
+    text-align:left;
+}
+
+#home3 img{
+    width:46%;
+    float:left;
+    margin:2%;
+}
+
+#picture{
+    list-style-type:none;
+    float:left;
+}
+
+#picture img{
+    float:left;
+    width:18%;
+    margin: 1%;
+    max-height:10%;
+    overflow:hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#flavor{
+    font-family: "Special Elite", cursive;
+    color: #FFD56D;
+    text-align:center;
+    font-size:100%;
+    float:left;
+    width:100%;
+}
+#flavor p{
+    float:left;
+    margin:1%;
+    width:18%;
+}
+
+
+
+<!--Product Page-->
+
+#product1 h2{
+    color:#FFD56D;
+    font-family:"Homemade Apple", cursive;
+    text-align:center;
+    font-size:250%;
+}
+
+#product1 p{
+    font-size:100%;
+    font-family: "Special Elite", cursive;
+    color: #FFD56D;
+    text-align:center;
+    font-size:200%;
+}
